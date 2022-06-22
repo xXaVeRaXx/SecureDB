@@ -9,9 +9,9 @@ print ("2. Spanish")
 option_dic = input()
 
 if option_dic == "1":
-    dictionary = 'diccionarios/dic_EN.txt'
+    dictionary = 'dictionaries/dic_EN.txt'
 elif option_dic == "2":
-    dictionary = 'diccionarios/dic_SP.txt'
+    dictionary = 'dictionaries/dic_SP.txt'
 else:
     print ("This option doesn't exist. Run the script another time selecting an existing dictionary option.")
     exit(0)
